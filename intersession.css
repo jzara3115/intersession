@@ -7,12 +7,7 @@ body {
   font-family: sans-serif;
 }
 
-@media screen and (max-width: 1023.998px) {
-  body {
-    width: 80%;
-  }
-}
-  
+
 hr {
   margin: 2rem;  
 }
