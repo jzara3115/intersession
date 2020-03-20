@@ -9,6 +9,30 @@ body {
   color:#ffffff;
 }
 
+.topnav {
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white !important;
+  border: solid black 1px;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: purple;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: orangered;
+  color: white;
+}
 
 hr {
   margin: 2rem;  
@@ -29,18 +53,18 @@ a:link {
   background: yellow;
 }
 
-a:visited {
+ a:visited {
   color: yellow;
   background: brown;
 }
 
 a:focus {
-  border-bottom: 1px solid;
-  background: #purple;
+
+  background: purple;
 }
 
-a:hover {
-  border-bottom: 1px solid;     
+ a:hover {
+   
   background: turquoise;
 }
 
@@ -63,9 +87,9 @@ a:active#new-link {
 }
 
 .fancy-underline {
-  color: black !important;
+  color: white !important;
   background: none !important;
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid lightblue;
 }
 
 .fancy-underline:hover, .fancy-underline:active, .fancy-underline:visited {
